@@ -1,0 +1,11 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=ZIN
+Comment=ZIN P2P Cryptocurrency
+Exec=zinni-qt %u
+Terminal=false
+Type=Application
+Icon=zinni128
+MimeType=x-scheme-handler/zinni;
+Categories=Office;Finance;
+Name[en_US]=zinni-qt.desktop

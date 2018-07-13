@@ -1,0 +1,20 @@
+<!DOCTYPE RCC><RCC version="1.0">
+    <qresource prefix="/translations">
+        <file alias="bg">locale/zinni_bg.qm</file>
+        <file alias="de">locale/zinni_de.qm</file>
+        <file alias="en">locale/zinni_en.qm</file>
+        <file alias="es">locale/zinni_es.qm</file>
+        <file alias="fi">locale/zinni_fi.qm</file>
+        <file alias="fr">locale/zinni_fr.qm</file>
+        <file alias="it">locale/zinni_it.qm</file>
+        <file alias="ja">locale/zinni_ja.qm</file>
+        <file alias="pl">locale/zinni_pl.qm</file>
+        <file alias="pt">locale/zinni_pt.qm</file>
+        <file alias="ru">locale/zinni_ru.qm</file>
+        <file alias="sk">locale/zinni_sk.qm</file>
+        <file alias="sv">locale/zinni_sv.qm</file>
+        <file alias="vi">locale/zinni_vi.qm</file>
+        <file alias="zh_CN">locale/zinni_zh_CN.qm</file>
+        <file alias="zh_TW">locale/zinni_zh_TW.qm</file>
+    </qresource>
+</RCC>

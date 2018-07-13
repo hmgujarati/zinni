@@ -1,0 +1,26 @@
+[Unit]
+Description=ZIN's distributed currency daemon
+After=network.target
+
+[Service]
+User=zinni
+Group=zinni
+
+Type=forking
+PIDFile=/var/lib/zinnid/zinnid.pid
+
+ExecStart=/usr/bin/zinnid -daemon -pid=/var/lib/zinnid/zinnid.pid \
+          -conf=/etc/zinni/zinni.conf -datadir=/var/lib/zinnid
+
+ExecStop=-/usr/bin/zinni-cli -conf=/etc/zinni/zinni.conf \
+         -datadir=/var/lib/zinnid stop
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target

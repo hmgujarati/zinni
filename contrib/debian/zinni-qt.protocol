@@ -1,0 +1,11 @@
+[Protocol]
+exec=zinni-qt '%u'
+protocol=zinni
+input=none
+output=none
+helper=true
+listing=
+reading=false
+writing=false
+makedir=false
+deleting=false
